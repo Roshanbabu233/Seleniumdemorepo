@@ -13,6 +13,7 @@ public class twoTest extends Base {
 	
 	public void twotest() throws IOException, InterruptedException
 	{
+		System.out.println("Roshanis bad boy")
 		 d = initializedriver();
 		d.get("http://tutorialsninja.com/demo/");
 		Thread.sleep(3000);
