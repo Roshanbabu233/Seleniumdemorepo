@@ -16,10 +16,12 @@ public class threeTest extends Base {
 	
 	public void threetest() throws IOException, InterruptedException
 	{
+		System.out.println("Roshan updated");
 		 d = initializedriver();
 		d.get("http://tutorialsninja.com/demo/");
 		Thread.sleep(3000);
 		Assert.assertTrue(false);
+		
 		
 	}
 	@AfterMethod
