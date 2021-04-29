@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-27T14:03:30 MDT" name="Surefire suite" finished-at="2021-04-27T14:04:13 MDT" duration-ms="42988">
+    <groups>
+    </groups>
+    <test started-at="2021-04-27T14:03:30 MDT" name="Surefire test" finished-at="2021-04-27T14:04:13 MDT" duration-ms="42988">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="open()[pri:0, instance:tests.LoginTest@4e08711f]" started-at="2021-04-27T14:03:30 MDT" name="open" finished-at="2021-04-27T14:03:51 MDT" duration-ms="21098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@4e08711f]" started-at="2021-04-27T14:03:51 MDT" name="login" data-provider="getData" finished-at="2021-04-27T14:03:57 MDT" duration-ms="6184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arun.selenium@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Second@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.LoginTest@4e08711f]" started-at="2021-04-27T14:03:57 MDT" name="closure" finished-at="2021-04-27T14:03:59 MDT" duration-ms="1548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="open()[pri:0, instance:tests.LoginTest@4e08711f]" started-at="2021-04-27T14:03:59 MDT" name="open" finished-at="2021-04-27T14:04:06 MDT" duration-ms="7506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@4e08711f]" started-at="2021-04-27T14:04:06 MDT" name="login" data-provider="getData" finished-at="2021-04-27T14:04:11 MDT" duration-ms="5289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy@tes9t.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12ytht3244]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.LoginTest@4e08711f]" started-at="2021-04-27T14:04:11 MDT" name="closure" finished-at="2021-04-27T14:04:13 MDT" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.twoTest">
+        <test-method signature="twotest()[pri:0, instance:tests.twoTest@17f7cd29]" started-at="2021-04-27T14:04:13 MDT" name="twotest" finished-at="2021-04-27T14:04:13 MDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twotest -->
+      </class> <!-- tests.twoTest -->
+      <class name="tests.threeTest">
+        <test-method signature="threetest()[pri:0, instance:tests.threeTest@609cd4d8]" started-at="2021-04-27T14:04:13 MDT" name="threetest" finished-at="2021-04-27T14:04:13 MDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threetest -->
+      </class> <!-- tests.threeTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
